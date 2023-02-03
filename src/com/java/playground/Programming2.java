@@ -10,6 +10,8 @@ public class Programming2 {
 //		System.out.println(s2);
 		
 //		System.out.println(System.getProperty("user.dir"));
+		int b = 0;
+		System.out.println(b);
 	
 	}
 }
