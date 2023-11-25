@@ -1,1 +1,49 @@
-# TestJava
+# Techstack
+
+- Java 17
+- Spring modules
+  - Spring core
+  - Spring MVC
+  - Spring boot
+  - Spring AOP
+  - Spring Transaction
+  - Spring batch
+  - Spring security
+- Hibernate
+- REST API
+- SOAP webservices
+- GraphQL
+- Microservices
+- Apache Kafka
+- RabbitMQ
+- Oauth2.0 + OpenID connect
+- Oauth2.0 + Okta
+- JWT
+- SAML
+- SSO
+- AWS - S3
+- AWS- EC2
+- Redis
+- Memcached
+- Docker
+- Kubernetes
+- Oracle DB
+- MySQL DB
+- PostgreSQL
+- MongoDB
+- JUnit
+- Mockito
+- Code coverage
+- Code review
+- Data structures
+- Algorithms
+- Design patterns
+- Architectural patterns or styles
+- Solid design principles
+- CAP theorem
+- ACIP properties
+- 12 factor app
+- System design
+- Infra tools
+- Project management tools
+- Unix basics
