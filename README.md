@@ -4,4 +4,3 @@
 - Algorithms
 - Design patterns
 - Programs
-- Code review checklist
