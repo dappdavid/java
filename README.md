@@ -41,9 +41,20 @@
 - Architectural patterns or styles
 - Solid design principles
 - CAP theorem
-- ACIP properties
+- ACID properties
 - 12 factor app
 - System design
+- Build tools
+  - Maven
+  - Gradle
 - Infra tools
+  - Jenkins
+  - GIT
+  - Datadog
+  - Splunk
+  - SonarQube
 - Project management tools
+  - JIRA
+  - Rally
+  - Confluence
 - Unix basics
