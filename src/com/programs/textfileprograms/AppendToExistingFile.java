@@ -1,21 +1,20 @@
-package com.java.textfileprograms;
+package com.programs.textfileprograms;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class WriteToFile {
+public class AppendToExistingFile {
 
 	public static void main(String[] args) {
-
-		File f = new File("File01.txt");
+		
 		try {
-			FileWriter fw = new FileWriter(f);
-			fw.write("xagjdgjkashd");
+			FileWriter fw = new FileWriter(System.getProperty("user.dir") + "\\File01.txt", true);
+			fw.write("...appending this");
 			fw.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 	}
 }

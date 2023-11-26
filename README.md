@@ -1,7 +1,7 @@
-# Contains the following
+# Contents
 
 
-### Versions
+### Java versions
 - Java 8
 - Java 11
 - Java 17
@@ -10,4 +10,5 @@
 - Data structures
 - Algorithms
 - Design patterns
-- Programs
+
+### Programs

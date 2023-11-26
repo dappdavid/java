@@ -1,4 +1,4 @@
-package com.java;
+package com.programs;
 
 //LazyInitialization
 public final class SingletonTest {

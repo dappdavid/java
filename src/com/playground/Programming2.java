@@ -1,4 +1,4 @@
-package com.java.playground;
+package com.playground;
 
 public class Programming2 {
 	public static void main(String[] args) {

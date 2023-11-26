@@ -1,4 +1,4 @@
-package com.java.textfileprograms;
+package com.programs.textfileprograms;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
