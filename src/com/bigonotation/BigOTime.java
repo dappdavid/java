@@ -1,6 +1,6 @@
 package com.bigonotation;
 
-public class BigO {
+public class BigOTime {
 
 
     public static void main(String[] args) {
