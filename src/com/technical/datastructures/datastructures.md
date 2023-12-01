@@ -1,19 +1,19 @@
 # Data structures
 
-- Arrays
-- Singly linked list
-- Circular singly linked list
-- Doubly linked list
-- Doubly circular linked list
-- Stack
-- Queue
-- Hashtable
-- Tree
-- Binary tree
-- Binary search tree
-- AVL tree
-- Binary heap
-- Trie
+1. Arrays
+2. Singly linked list
+3. Circular singly linked list
+4. Doubly linked list
+5. Doubly circular linked list
+6. Stack
+7. Queue
+8. Hashtable
+9. Tree
+10. Binary tree
+11. Binary search tree
+12. AVL tree
+13. Binary heap
+14. Trie
 
 ### ChatGPT prompts
 - Explain how  Singly Linked List works in simple terms, with diagrams
