@@ -1,3 +1,0 @@
-# Management tools
-- JIRA
-- Confluence
