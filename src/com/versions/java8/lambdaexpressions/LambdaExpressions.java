@@ -1,4 +1,4 @@
-package com.javaversions.java8.lambdaexpressions;
+package com.versions.java8.lambdaexpressions;
 
 //Java program to demonstrate lambda expressions
 //to implement a user defined functional interface.

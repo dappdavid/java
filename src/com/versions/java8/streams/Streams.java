@@ -1,4 +1,4 @@
-package com.javaversions.java8.streams;
+package com.versions.java8.streams;
 
 import java.util.*;
 import java.util.stream.Collectors;

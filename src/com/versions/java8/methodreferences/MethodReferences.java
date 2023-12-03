@@ -1,4 +1,4 @@
-package com.javaversions.java8.methodreferences;
+package com.versions.java8.methodreferences;
 
 
 interface Sayable {

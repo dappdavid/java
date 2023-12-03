@@ -1,4 +1,4 @@
-package com.javaversions.java8.functionalinterfaces;
+package com.versions.java8.functionalinterfaces;
 
 //Has a single abstract method but it can have default or static methods 
 @FunctionalInterface

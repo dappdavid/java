@@ -1,4 +1,4 @@
-package com.javaversions.java8.defaultmethods;
+package com.versions.java8.defaultmethods;
 
 public class DefaultMethods implements GfG {
 
