@@ -9,3 +9,4 @@
 - Array programs
 - String programs
 - Math programs
+- Hashmap programs
