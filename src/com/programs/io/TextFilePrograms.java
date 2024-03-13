@@ -1,4 +1,4 @@
-package com.programs.textfileprograms;
+package com.programs.io;
 
 public class TextFilePrograms {
 

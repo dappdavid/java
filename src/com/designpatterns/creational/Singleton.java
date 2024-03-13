@@ -1,18 +1,18 @@
-package com.programs;
+package com.designpatterns.creational;
 
 //LazyInitialization
-public final class SingletonTest {
+public final class Singleton {
 
-	private static volatile SingletonTest instance = null;
+	private static volatile Singleton instance = null;
 
-	private SingletonTest() {
+	private Singleton() {
 
 	}
 
-	public static SingletonTest getInstance() {
+	public static Singleton getInstance() {
 		if (instance == null) {
-			synchronized (SingletonTest.class) {
-				instance = new SingletonTest();
+			synchronized (Singleton.class) {
+				instance = new Singleton();
 			}
 		}
 		return instance;

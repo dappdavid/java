@@ -1,6 +1,6 @@
-package com.programs;
+package com.algos.sort;
 
-public class SortingProblems {
+public class MergeSort {
 
 	public static void main(String[] args) {
 
