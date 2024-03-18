@@ -9,11 +9,7 @@ public class Java17 {
 
 //        Pattern Matching for switch
         Object obj = "Hello";
-        switch (obj) {
-            case String s -> System.out.println(s.toUpperCase());
-            case Integer i -> System.out.println(Math.pow(i, 2));
-            default -> System.out.println("Unknown type");
-        }
+
 
 //        Pattern Matching for instanceof
         if (obj instanceof String s) {
