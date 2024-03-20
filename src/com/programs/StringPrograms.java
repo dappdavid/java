@@ -106,7 +106,7 @@ public class StringPrograms {
 		}
 	}
 
-	// Can you prove that a String object in Java is immutable programmatically
+	// Can you prove that a String object in Java is immutable programmatically
 	private static void stringImmutability() {
 		// TODO Auto-generated method stub
 
@@ -206,7 +206,7 @@ public class StringPrograms {
 
 	}
 
-	// How do you find longest substring without repeating characters in the given
+	// How do you find longest substring without repeating characters in the given
 	// string
 	private static void findLongestSubstringWithoutRepeatingCharacters(String s) {
 		// TODO Auto-generated method stub

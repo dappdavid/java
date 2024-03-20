@@ -7,9 +7,8 @@ public class TextFilePrograms {
 	}
 
 	// TextFilePrograms
-	// Write a Java program to append a given string to a text file
-	// How do you find the number of characters, words and lines in the given text
-	// file
+	// Write a Java program to append a given string to a text file
+	// How do you find the number of characters, words and lines in the given text file
 
 	// How do you find the most repeated word in a text file
 	// How to sort a text file
