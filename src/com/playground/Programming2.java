@@ -1,17 +1,27 @@
 package com.playground;
 
-public class Programming2 {
+public class Programming2 implements ABC, XYZ {
 	public static void main(String[] args) {
 		
-//		String s = "adasdhj";
-//		char[] charArray = s.toCharArray();
-//		System.out.println(charArray);
-//		String s2 = new String(charArray);
-//		System.out.println(s2);
-		
-//		System.out.println(System.getProperty("user.dir"));
-		int b = 0;
-		System.out.println(b);
+
 	
 	}
+
+	public void print(){
+		System.out.println("Programming2");
+	}
+
+
+}
+
+interface ABC {
+	default void print(){
+		System.out.println("ABC");
+	}
+}
+
+interface XYZ {
+//	default void print(){
+//		System.out.println("XYZ");
+//	}
 }
