@@ -16,13 +16,13 @@ public class CollectionsPractice {
         List l3 = new LinkedList<>();
         l3.add("S2");
         l3.add(67);
-        System.out.println(l3);
+//        System.out.println(l3);
 
         //final list can be modified but can't be reassigned
         final List l4 = new LinkedList<String>();
         l4.add("1");
         l4.add("2");
-        System.out.println(l4);
+//        System.out.println(l4);
        // l4 = l3; //Compilation error
         l3 = l4; //no compilation error
 
@@ -40,5 +40,18 @@ public class CollectionsPractice {
         Collections.sort(l1);
 
 
+        calculate(45, true, "abc");
+    }
+
+    //Generic method
+    public static <T> void calculate(T var1){
+        System.out.println("var1 : "+var1);
+    }
+
+    //Generic method with multiple generic args
+    public static <A, B, C> void calculate(A var1, B var2, C var3){
+        System.out.println("var1 : "+var1);
+        System.out.println("var2 : "+var2);
+        System.out.println("var3 : "+var3);
     }
 }
