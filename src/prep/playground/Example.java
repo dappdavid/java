@@ -1,4 +1,4 @@
-package com.playground;
+package prep.playground;
 
 public class Example {
 

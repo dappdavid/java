@@ -1,4 +1,4 @@
-package com.playground;
+package prep.playground;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -59,7 +59,12 @@ public class Java8Practice {
 
         //Number of people in each department
         Map<String, Long> count = employees.stream().collect(Collectors.groupingBy(Employee::getDept, Collectors.counting()));
-        System.out.println(count);
+//        System.out.println(count);
+
+        //Average age of employees in each department
+        Map<String, Double> avgAges = employees.stream().collect(Collectors.groupingBy(Employee::getDept, Collectors.averagingInt(Employee::getAge)));
+        System.out.println(avgAges);
+
 
     }
 }

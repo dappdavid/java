@@ -1,4 +1,4 @@
-package com.coreconcepts;
+package prep.playground;
 
 public class OOPsPrograms {
 

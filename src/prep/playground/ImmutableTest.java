@@ -1,4 +1,4 @@
-package com.coreconcepts;
+package prep.playground;
 
 import java.util.HashMap;
 import java.util.Iterator;

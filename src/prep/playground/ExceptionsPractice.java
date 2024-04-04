@@ -1,4 +1,4 @@
-package com.playground;
+package prep.playground;
 
 public class ExceptionsPractice {
     public static void main(String[] args) {

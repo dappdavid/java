@@ -1,4 +1,4 @@
-package com.playground;
+package prep.playground;
 
 import java.util.Hashtable;
 

@@ -1,4 +1,4 @@
-package com.playground;
+package prep.playground;
 
 public class Programming2 implements ABC, XYZ {
 	public static void main(String[] args) {
