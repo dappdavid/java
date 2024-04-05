@@ -10,25 +10,63 @@ public class Q1 {
     @Test
     void reverseString(){
     String s = "David";
+        char[] charArray = s.toLowerCase().toCharArray();
+        for (int i= s.toCharArray().length-1; i >=0 ; i--){
+        System.out.print(charArray[i]);
+    }
 
     }
 
     // count number of vowels present in a string (iterative)
     @Test
     void countNumberOfVowelsPresentInString(){
-
+        String str = "David is a handsome guy";
+        char[] charArray = str.toCharArray();
+        int count =0;
+        for (int i = 0; i< charArray.length; i++){
+            if(charArray[i] == 'a' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u' ){
+                count++;
+            }
+        }
+        System.out.println(count);
     }
 
     // count number of vowels present in a string (recursive)
     @Test
     void countNumberOfVowelsPresentInString_Recursive(){
+        String str = "David is a handsome guy";
+        int count = countVowels(str, 0, str.length());
+        System.out.println(count);
+    }
 
+    int countVowels(String s, int index, int length){
+        if(index == length){
+            return 0;
+        } else {
+            int count = isVowel(s.charAt(index)) ? 1 : 0;
+            return count + countVowels(s , index+1, length);
+        }
+    }
+
+    public static boolean isVowel(char c){
+        if(c == 'a' || c == 'e' || c == 'i'|| c == 'o'|| c == 'u' ){
+            return true;
+        }
+        else return false;
     }
 
     // check whether a string is a palindrome
     @Test
     void checkIfPalindrome(){
-
+        String s = "aziza";
+        boolean isPalindrome = true;
+        for(int i=0; i<s.length()/2; i++){
+            if(s.charAt(i)!=s.charAt(s.length()-1-i)){
+                isPalindrome = false;
+                break;
+            }
+        }
+        System.out.println(isPalindrome);
     }
 
     //remove leading and trailing spaces from a string
