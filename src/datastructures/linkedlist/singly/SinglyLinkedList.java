@@ -1,6 +1,6 @@
 package datastructures.linkedlist.singly;
 
-import com.ds.linkedlist.Node;
+import datastructures.linkedlist.Node;
 
 public class SinglyLinkedList {
   public Node head;
