@@ -63,7 +63,7 @@ public class Q1_StringPrograms {
     // check whether a string is a palindrome
     @Test
     void checkIfPalindrome() {
-        String s = "aziza";
+        String s = "malayalam";
         boolean isPalindrome = true;
         for (int i = 0; i < s.length() / 2; i++) {
             if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
@@ -219,138 +219,6 @@ public class Q1_StringPrograms {
         // TODO Auto-generated method stub
 
     }
-
-
-//-------Java 8 Programs-----------------------
-
-    // Filter and Print Even Numbers
-
-    // Convert List of Strings to Uppercase
-
-
-    // Find the First Element in a List
-
-
-    // FlatMap to Flatten a List of Lists
-
-    // Reduce to Sum All Elements
-
-
-    // Collect to a Map with the Word Length as Key
-
-
-    // Peek to Perform an Action Without Altering the Stream
-
-
-    // Find Any Element in a Stream
-
-
-    // Count Distinct Elements in a Stream
-
-
-    // Create a List from a Stream of Integers
-
-
-    // Skip and Limit to Create a Paginated Result
-
-
-    // Match Operations
-
-
-    // Sort a Stream Using a Custom Comparator
-
-
-    // Concatenate Two Streams
-
-
-    // Use Collectors to Create a String from a Stream
-
-
-    // Convert a Stream to an Array
-
-
-    // Separate Odd And Even Numbers
-
-
-    // Frequency Of Each Character In String
-
-
-    // Sort The List In Reverse Order
-
-
-    // Print Multiples Of 5 From The List
-
-
-    // Merge Two Unsorted Arrays Into Single Sorted Array
-
-
-    // Anagram Program In Java 8
-
-
-    // Three Max & Min Numbers From The List
-    // Min 3 Numbers
-
-    // Max 3 Numbers
-
-
-    // Sum Of All Digits Of A Number
-
-
-    // Reverse Each Word Of A String
-
-
-    // Palindrome Program In Java 8
-
-
-    // Find Strings Which Start With Number
-
-
-    // Find Duplicate Elements From An Array
-
-
-    // Last Element Of An Array
-
-
-    // Age Of Person In Years
-
-
-    // Fibonacci Series
-
-
-    // Convert a Map to a List of Entries
-
-
-    // Grouping By with Downstream Collector
-
-
-    // Partitioning By with Predicate
-
-
-    // Finding Maximum and Minimum in a List of Objects
-
-
-    // Custom Collector to Concatenate Strings with Delimiter
-
-
-    // Find the Most Frequent Element in a List
-
-
-    // Stream of Random Numbers
-
-
-    // Infinite Stream of Fibonacci Sequence
-
-
-    // Stream from a Pattern Regex
-
-
-    // Convert Nested Map to List
-
-
-    // Count the Number of Occurrences of Each Letter in a String
-
-
-    // Sum Comma Separated Numbers in a String
 
 
 //-------Multithreading Programs-----------------------
