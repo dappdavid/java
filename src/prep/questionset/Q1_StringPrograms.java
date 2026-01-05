@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 
-public class Q1 {
+public class Q1_StringPrograms {
 
     //-------String Programs (21)-----------------------
     // reverse a string
@@ -221,166 +221,6 @@ public class Q1 {
     }
 
 
-//-------Array Programs (14)-----------------------
-
-    // 0s followed by 1s (sort array)
-    @Test
-    public void arrayProgram1() {
-        int[] arr = {1, 0, 1, 1, 1, 1, 1, 0, 1, 0};
-        String collected = Arrays.stream(arr).mapToObj(String::valueOf).collect(Collectors.joining());
-        System.out.println(collected);
-
-        //count the number of zeroes
-        //add same number of zeroes at the beginning of the array
-
-    }
-
-    // How to find the missing number in integer array of 1 to 100
-    @Test
-    void findMissingNumber() {
-
-
-    }
-
-    // How to find duplicate number on Integer array in Java
-    @Test
-    void findDuplicateNumber() {
-
-    }
-
-    // How to check if array contains a number
-    @Test
-    void checkIfArrayContainsANumber() {
-
-    }
-
-    // How to find largest and smallest number in unsorted array
-    @Test
-    void findLargestAndSmallestNumber() {
-
-    }
-
-    // How to find all pairs on integer array whose sum is equal to given number
-    @Test
-    void allPairsWhoseSumIsEqualToGivenNumber() {
-
-    }
-
-    // How to find repeated numbers in an array if it contains multiple duplicates
-    @Test
-    void findRepeatedNumbers() {
-        // TODO Auto-generated method stub
-
-    }
-
-    // Write a program to remove duplicates from array in Java
-    @Test
-    void removeDuplicates() {
-        // TODO Auto-generated method stub
-
-    }
-
-    // How find the first repeating element in an array of integers
-    @Test
-    void findFirstRepeatingElement() {
-        // TODO Auto-generated method stub
-
-    }
-
-    // How to find first non-repeating element in array of integers
-    @Test
-    void findFirstNonRepeatingElement() {
-        // TODO Auto-generated method stub
-
-    }
-
-    // How to find top two numbers from an integer array
-    @Test
-    void findTopTwoNumbers() {
-        // TODO Auto-generated method stub
-
-    }
-
-    // How to reverse array in place
-    @Test
-    void reverseArrayInPlace() {
-
-    }
-
-    // Write Java program that checks if two arrays contain the same elements
-    @Test
-    void checkif2ArraysHaveSameElements() {
-        // TODO Auto-generated method stub
-
-    }
-
-    // How do you find the second largest number in an array
-    @Test
-    void secondLargestNumberInArray() {
-        // TODO Auto-generated method stub
-
-    }
-
-
-//-------Math Programs (9)-----------------------
-
-    // find the factorial of an integer
-    @Test
-    void factorial() {
-
-    }
-
-    // Swap with temp
-    @Test
-    void swap() {
-
-    }
-
-    // swap two numbers without using a third variable
-    @Test
-    void swapWithoutTemp() {
-
-    }
-
-    // find power of a number using recursion
-    @Test
-    void power() {
-
-
-    }
-
-    // find power of a number without using recursion
-    @Test
-    void powerBitmanipulation() {
-
-    }
-
-    // check if the given number is a prime number
-    @Test
-    void checkIfPrime() {
-
-
-    }
-
-    // print a Fibonacci sequence using while loop
-    @Test
-    void fibonacci() {
-
-    }
-
-    // find the sum of Fibonacci sequence using recursion
-    @Test
-    void fibonacciRecursion() {
-
-    }
-
-    // check if a list of integers contains only odd numbers
-    @Test
-    void checkIfListOnlyContainsOddNumbers() {
-
-    }
-
-
 //-------Java 8 Programs-----------------------
 
     // Filter and Print Even Numbers
@@ -447,10 +287,10 @@ public class Q1 {
     // Anagram Program In Java 8
 
 
-// Three Max & Min Numbers From The List
-// Min 3 Numbers
+    // Three Max & Min Numbers From The List
+    // Min 3 Numbers
 
-// Max 3 Numbers
+    // Max 3 Numbers
 
 
     // Sum Of All Digits Of A Number
