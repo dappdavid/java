@@ -1,4 +1,4 @@
-package prep.playground2;
+package playgrounds.playground2;
 
 class Thread1 extends Thread {
 

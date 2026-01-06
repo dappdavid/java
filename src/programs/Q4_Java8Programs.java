@@ -1,4 +1,4 @@
-package prep.questionset;
+package programs;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,9 +1,9 @@
-package prep.template;
+package programs.fullset;
 
 import org.junit.jupiter.api.Test;
 
 
-public class TemplateForQuestionSet {
+public class FullQuestionSet {
 
 //-------String Programs (21)-----------------------
     // reverse a string

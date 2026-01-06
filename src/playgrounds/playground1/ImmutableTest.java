@@ -1,4 +1,4 @@
-package prep.playground1;
+package playgrounds.playground1;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -6,15 +6,15 @@ import java.util.Iterator;
 public final class ImmutableTest {
 
 	/*
-	 * Declare the class as final so it can’t be extended. 
-	 * Make all of the fields private so that direct access is not allowed. 
-	 * Don’t provide setter methods for variables. 
-	 * Make all mutable fields final so that a field’s value can be
-	 * assigned only once. 
-	 * Initialize all fields using a constructor method
-	 * performing deep copy. 
-	 * Perform cloning of objects in the getter methods to
-	 * return a copy rather than returning the actual object reference.
+	 *  1. Declare the class as final so it can’t be extended.
+	 *  2. Make all of the fields private so that direct access is not allowed.
+	 *  3. Don’t provide setter methods for variables.
+	 *  4. Make all mutable fields final so that a field’s value can be
+	 * 		assigned only once.
+	 *  5. Initialize all fields using a constructor method
+	 * 		performing deep copy.
+	 * 	6. Perform cloning of objects in the getter methods to
+	 * 		return a copy rather than returning the actual object reference.
 	 */
 	
 	private final int id;

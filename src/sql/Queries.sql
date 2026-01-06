@@ -1,1 +1,2 @@
-select * from users where status = 'active';
+use david;
+

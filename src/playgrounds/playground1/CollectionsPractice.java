@@ -1,4 +1,4 @@
-package prep.playground1;
+package playgrounds.playground1;
 
 import java.util.*;
 

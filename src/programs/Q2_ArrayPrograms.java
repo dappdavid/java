@@ -1,4 +1,4 @@
-package prep.questionset;
+package programs;
 
 import org.junit.jupiter.api.Test;
 
@@ -13,8 +13,6 @@ public class Q2_ArrayPrograms {
     @Test
     public void arrayProgram1() {
         int[] arr = {1, 0, 1, 1, 1, 1, 1, 0, 1, 0};
-        String collected = Arrays.stream(arr).mapToObj(String::valueOf).collect(Collectors.joining());
-        System.out.println(collected);
 
         //count the number of zeroes
         //add same number of zeroes at the beginning of the array
