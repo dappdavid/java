@@ -2,7 +2,7 @@ package algorithms.sort.bubble;
 
 public class BubbleSort {
 
-  public void bubbleSort(int arr[]) {
+  public void executeBubbleSort(int arr[]) {
     int n = arr.length;
     boolean swapped;
     for (int i = 0; i < n-1; i++) {
@@ -20,7 +20,7 @@ public class BubbleSort {
     }
   }
 
-  public void printArray(int arr[]) {
+  public void print(int arr[]) {
     int n = arr.length;
     for (int i = 0; i<n; i++) {
       System.out.print(arr[i] + " ");
@@ -30,13 +30,13 @@ public class BubbleSort {
 
   public static void main(String args[]) {
     BubbleSort ob = new BubbleSort();
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int arr[] = {64, 34, 25, 12, 22, 11, 90, 88, 76, 45, 33, 21, 19, 5, 2};
     System.out.println("Original Array:");
-    ob.printArray(arr);
+    ob.print(arr);
 
-    ob.bubbleSort(arr);
+    ob.executeBubbleSort(arr);
 
     System.out.println("Sorted Array:");
-    ob.printArray(arr);
+    ob.print(arr);
   }
 }
